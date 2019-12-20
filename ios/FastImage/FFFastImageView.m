@@ -18,6 +18,7 @@
     self = [super init];
     self.resizeMode = RCTResizeModeCover;
     self.clipsToBounds = YES;
+    self.layer.magnificationFilter = @"nearest";
     return self;
 }
 
